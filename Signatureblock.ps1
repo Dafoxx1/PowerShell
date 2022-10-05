@@ -5,7 +5,7 @@
 Creates html signature blocks using AD and HTML
 .INPUTS
 User data from AD
-Please Change lines 38,39,52,135,157
+Please Change lines 38,39,47,52,135,157
 .OUTPUTS
 Saves a copy on C:\Signatures  Copy png file into email signature file
 .NOTES
@@ -44,7 +44,7 @@ if($user) {
   if($user.homephone.count -gt 0){$directDial = $user.homephone[0].trimstart("1")}
   if($user.mobile.count -gt 0){$mobileNumber = $user.mobile[0].trimstart("1")}
   if($user.mail.count -gt 0){$email = $user.mail[0]}
-  $website = "garbennett.com"
+  $website = "WEBSITE NAME"
   if($user.telephonenumber.count -gt 0){$telephone = $user.telephonenumber[0].trimstart("1 ")}
   if($user.physicaldeliveryofficename.count -gt 0){$office = $user.physicaldeliveryofficename}
   ########################### Building the Address profile from Address book
