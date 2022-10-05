@@ -5,7 +5,7 @@
 Creates html signature blocks using AD and HTML
 .INPUTS
 User data from AD
-Please Change lines 39,40,52,135,157
+Please Change lines 38,39,52,135,157
 .OUTPUTS
 Saves a copy on C:\Signatures  Copy png file into email signature file
 .NOTES
