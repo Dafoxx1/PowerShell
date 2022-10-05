@@ -10,7 +10,7 @@ Please Change lines 38,39,47,52,135,157
 Saves a copy on C:\Signatures  Copy png file into email signature file
 .NOTES
   Version:        4.0
-  Author:         James Kimble
+  Author:         Dafoxx1
   Created:       03/25/2021
   Modified:       10/04/2022
 #>
